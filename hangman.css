@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(113, 113, 241);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.game_body {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+ .game_body{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.letters > button{
+  font-size: 20px;
+  font-weight: bold;
+  width: 40px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: black;
+  color: rgb(113, 113, 241) ;
+  transition: 0.3s;
+}
